@@ -6,7 +6,7 @@ import { AspectRatio } from "@/components/ui/aspect-ratio";
 
 export const DemoSection = () => {
   return (
-    <section className="py-20 bg-gray-50">
+    <section className="py-20 bg-white">
       <div className="container mx-auto px-4">
         <div className="text-center mb-12">
           <h2 className="text-4xl font-bold text-gray-900 mb-4">
@@ -34,10 +34,23 @@ export const DemoSection = () => {
             </CardContent>
           </Card>
 
-          <div className="grid md:grid-cols-3 gap-6 mt-12">
+          <div className="mt-8 mb-12">
+            <Card className="p-6">
+              <h4 className="font-bold text-xl mb-3 text-center">Restaurant Dashboard</h4>
+              <p className="text-gray-600 text-center leading-relaxed">
+                Get your store in front of thousands of nearby customers. Receive instant notifications for reservations and orders. 
+                Manage your inventory and sales efficiently, all in one powerful dashboard.
+              </p>
+            </Card>
+          </div>
+
+          <div className="grid md:grid-cols-3 gap-6">
             <Card className="text-center p-6">
               <h4 className="font-bold text-lg mb-2">Chef Network</h4>
-              <p className="text-gray-600 mb-4">Connect with top chefs and culinary professionals</p>
+              <p className="text-gray-600 mb-4">
+                Connect with top chefs and culinary professionals. Collaborate with chefs for events, private dining, or guest experiences. 
+                Build long-term partnerships within the Dfoodcore ecosystem.
+              </p>
               <Button variant="outline" size="sm">
                 Learn More <ArrowRight className="w-4 h-4 ml-1" />
               </Button>
@@ -45,7 +58,10 @@ export const DemoSection = () => {
             
             <Card className="text-center p-6">
               <h4 className="font-bold text-lg mb-2">Event Management</h4>
-              <p className="text-gray-600 mb-4">Streamline your food events and catering services</p>
+              <p className="text-gray-600 mb-4">
+                Streamline your food events and catering services. Promote your events, manage bookings, and coordinate with clients seamlessly. 
+                Whether you're hosting a food festival or a private tasting, we've got you covered.
+              </p>
               <Button variant="outline" size="sm">
                 Learn More <ArrowRight className="w-4 h-4 ml-1" />
               </Button>
@@ -53,7 +69,10 @@ export const DemoSection = () => {
             
             <Card className="text-center p-6">
               <h4 className="font-bold text-lg mb-2">Vendor Portal</h4>
-              <p className="text-gray-600 mb-4">Manage inventory and orders efficiently</p>
+              <p className="text-gray-600 mb-4">
+                Manage inventory and fulfill orders efficiently. Track your stock, respond to orders, and serve your restaurant and chef partners 
+                reliably with our easy-to-use vendor tools.
+              </p>
               <Button variant="outline" size="sm">
                 Learn More <ArrowRight className="w-4 h-4 ml-1" />
               </Button>

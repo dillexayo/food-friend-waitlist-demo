@@ -7,32 +7,32 @@ export const FeaturesSection = () => {
     {
       icon: <Network className="w-8 h-8 text-orange-600" />,
       title: "Unified Network",
-      description: "Connect with food professionals across the entire supply chain in one platform"
+      description: "Join a vibrant network of restaurants, chefs, vendors, and event organizers to grow your food business and event."
     },
     {
       icon: <Users className="w-8 h-8 text-orange-600" />,
-      title: "Partner Matching",
-      description: "AI-powered matching system to find the perfect business partners for your needs"
+      title: "Right Customer",
+      description: "AI-driven recommendations to help your food business/event find and work with the right customer"
     },
     {
       icon: <TrendingUp className="w-8 h-8 text-orange-600" />,
       title: "Business Analytics",
-      description: "Track performance, revenue, and growth opportunities with detailed insights"
+      description: "Track your bookings, visibility, and engagement to uncover growth opportunities with your business performance."
     },
     {
       icon: <Shield className="w-8 h-8 text-orange-600" />,
       title: "Secure Transactions",
-      description: "End-to-end encrypted payment processing and contract management"
+      description: "Enable secure in-app payments for bookings, orders, reservations, and services."
     },
     {
       icon: <Zap className="w-8 h-8 text-orange-600" />,
       title: "Real-time Communication",
-      description: "Chat, video calls, and collaboration tools built for food businesses"
+      description: "Instant chat and messaging to simplify communication between partners and clients."
     },
     {
       icon: <Star className="w-8 h-8 text-orange-600" />,
       title: "Rating System",
-      description: "Build trust with verified reviews and ratings from business partners"
+      description: "Earn trust with verified reviews from customers and partners within the Dfoodcore ecosystem."
     }
   ];
 
