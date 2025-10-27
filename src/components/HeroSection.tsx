@@ -1,6 +1,7 @@
 
 import { Button } from "@/components/ui/button";
 import { ChefHat, Calendar, Store, Utensils } from "lucide-react";
+import heroBackground from "@/assets/hero-background.jpg";
 
 export const HeroSection = () => {
   const scrollToWaitlist = () => {
@@ -8,8 +9,12 @@ export const HeroSection = () => {
   };
 
   return (
-    <section className="relative overflow-hidden bg-gradient-to-r from-orange-600 to-red-600 text-white">
-      <div className="absolute inset-0 bg-black/20"></div>
+    <section className="relative overflow-hidden text-white">
+      <div 
+        className="absolute inset-0 bg-cover bg-center bg-no-repeat"
+        style={{ backgroundImage: `url(${heroBackground})` }}
+      ></div>
+      <div className="absolute inset-0 bg-black/50"></div>
       <div className="relative container mx-auto px-4 py-20 text-center">
         <div className="max-w-4xl mx-auto">
           <h1 className="text-5xl md:text-6xl font-bold mb-6 leading-tight">

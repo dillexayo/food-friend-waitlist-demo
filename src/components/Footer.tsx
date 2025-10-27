@@ -7,22 +7,22 @@ export const Footer = () => {
       <div className="container mx-auto px-4">
         <div className="grid md:grid-cols-3 gap-8">
           <div>
-            <h3 className="text-2xl font-bold mb-4">FoodConnect Pro</h3>
+            <h3 className="text-2xl font-bold mb-4">Dfoodcore</h3>
             <p className="text-gray-300 mb-4">
               Connecting food businesses worldwide through innovative B2B2C solutions.
             </p>
             <div className="flex flex-col gap-2 text-gray-300">
               <div className="flex items-center gap-2">
                 <Mail className="w-4 h-4" />
-                <span>hello@foodconnectpro.com</span>
+                <span>hello@dfoodcore.com</span>
               </div>
               <div className="flex items-center gap-2">
                 <Phone className="w-4 h-4" />
-                <span>+1 (555) 123-4567</span>
+                <span>+2348150781396</span>
               </div>
               <div className="flex items-center gap-2">
                 <MapPin className="w-4 h-4" />
-                <span>San Francisco, CA</span>
+                <span>Newark, DE</span>
               </div>
             </div>
           </div>
@@ -51,7 +51,7 @@ export const Footer = () => {
         </div>
         
         <div className="border-t border-gray-800 mt-8 pt-8 text-center text-gray-400">
-          <p>&copy; 2024 FoodConnect Pro. All rights reserved. | Privacy Policy | Terms of Service</p>
+          <p>&copy; 2024 Dfoodcore. All rights reserved. | Privacy Policy | Terms of Service</p>
         </div>
       </div>
     </footer>
