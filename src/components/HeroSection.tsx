@@ -18,13 +18,17 @@ export const HeroSection = () => {
       <div className="relative container mx-auto px-4 py-20 text-center">
         <div className="max-w-4xl mx-auto">
           <h1 className="text-5xl md:text-6xl font-bold mb-6 leading-tight">
-            Transform Your Food Business with Our B2B2C Platform
+            Your Complete Food Experience & Business Platform
           </h1>
           <p className="text-xl md:text-2xl mb-8 opacity-90">
-            Connecting chefs, event organizers, vendors, and restaurants in one powerful ecosystem
+            Discover restaurants, track nutrition, make reservations—or grow your food business in one powerful ecosystem
           </p>
           
           <div className="flex flex-wrap justify-center gap-6 mb-10">
+            <div className="flex items-center gap-2 bg-white/20 rounded-full px-4 py-2">
+              <Utensils className="w-5 h-5" />
+              <span>Food Lovers</span>
+            </div>
             <div className="flex items-center gap-2 bg-white/20 rounded-full px-4 py-2">
               <ChefHat className="w-5 h-5" />
               <span>Chefs</span>
@@ -35,11 +39,7 @@ export const HeroSection = () => {
             </div>
             <div className="flex items-center gap-2 bg-white/20 rounded-full px-4 py-2">
               <Store className="w-5 h-5" />
-              <span>Food Vendors</span>
-            </div>
-            <div className="flex items-center gap-2 bg-white/20 rounded-full px-4 py-2">
-              <Utensils className="w-5 h-5" />
-              <span>Restaurants</span>
+              <span>Restaurants & Vendors</span>
             </div>
           </div>
 

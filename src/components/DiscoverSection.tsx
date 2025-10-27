@@ -31,10 +31,10 @@ export const DiscoverSection = () => {
       <div className="container mx-auto px-4">
         <div className="text-center mb-12">
           <h2 className="text-4xl font-bold text-gray-900 mb-4">
-            Discover, Engage & Grow on Dfoodcore
+            Discover, Connect & Enjoy on Dfoodcore
           </h2>
           <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-            Tools to help you reach more users, promote your services, and engage the food community.
+            Explore food experiences, connect with the culinary community, and help businesses thrive.
           </p>
         </div>
         

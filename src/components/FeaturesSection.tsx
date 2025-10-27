@@ -6,33 +6,33 @@ export const FeaturesSection = () => {
   const features = [
     {
       icon: <Network className="w-8 h-8 text-orange-600" />,
-      title: "Unified Network",
-      description: "Join a vibrant network of restaurants, chefs, vendors, and event organizers to grow your food business and event."
+      title: "Restaurant Discovery",
+      description: "Discover meals, check availability times, and make reservations for dates and dinners at your favorite restaurants."
     },
     {
       icon: <Users className="w-8 h-8 text-orange-600" />,
-      title: "Right Customer",
-      description: "AI-driven recommendations to help your food business/event find and work with the right customer"
+      title: "Nutritional Tracking",
+      description: "Track product ingredient richness and nutritional value to make informed food choices for your health."
     },
     {
       icon: <TrendingUp className="w-8 h-8 text-orange-600" />,
-      title: "Business Analytics",
-      description: "Track your bookings, visibility, and engagement to uncover growth opportunities with your business performance."
+      title: "Culinary Events & Content",
+      description: "Browse food photos, videos, and discover exciting culinary events happening in your area."
     },
     {
       icon: <Shield className="w-8 h-8 text-orange-600" />,
-      title: "Secure Transactions",
-      description: "Enable secure in-app payments for bookings, orders, reservations, and services."
+      title: "Secure Reservations",
+      description: "Make secure bookings and reservations with integrated payment options for a seamless experience."
     },
     {
       icon: <Zap className="w-8 h-8 text-orange-600" />,
-      title: "Real-time Communication",
-      description: "Instant chat and messaging to simplify communication between partners and clients."
+      title: "Business Tools",
+      description: "For food businesses: Manage bookings, showcase your menu, and connect with customers effortlessly."
     },
     {
       icon: <Star className="w-8 h-8 text-orange-600" />,
-      title: "Rating System",
-      description: "Earn trust with verified reviews from customers and partners within the Dfoodcore ecosystem."
+      title: "Community Reviews",
+      description: "Share experiences and discover top-rated restaurants, chefs, and food vendors in your community."
     }
   ];
 
@@ -41,10 +41,10 @@ export const FeaturesSection = () => {
       <div className="container mx-auto px-4">
         <div className="text-center mb-12">
           <h2 className="text-4xl font-bold text-gray-900 mb-4">
-            Everything You Need to Scale Your Food Business
+            Everything You Need for Your Food Journey
           </h2>
           <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-            Our platform brings together all the tools and connections you need to grow your food business
+            Whether you're exploring restaurants or growing your food business, we've got you covered
           </p>
         </div>
         
